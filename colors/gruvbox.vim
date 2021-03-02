@@ -1403,6 +1403,7 @@ hi! link jsonString GruvboxFg1
 " R: {{{
 
 hi! link rOperator GruvboxRed
+hi! link rDollar GruvboxRed
 hi! link rString GruvboxBlue
 
 " }}}
