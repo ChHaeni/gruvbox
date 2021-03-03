@@ -1405,6 +1405,7 @@ hi! link jsonString GruvboxFg1
 hi! link rOperator GruvboxRed
 hi! link rDollar GruvboxRed
 hi! link rString GruvboxBlue
+hi! link rFunction GruvboxGreen
 
 " }}}
 
