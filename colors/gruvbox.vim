@@ -1407,6 +1407,7 @@ hi! link rDollar GruvboxRed
 hi! link rString GruvboxBlue
 hi! link rFunction GruvboxGreen
 hi! link rBuiltin GruvboxGreen
+hi! link Title GruvboxYellowBold
 
 " }}}
 
