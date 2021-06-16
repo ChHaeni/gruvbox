@@ -144,6 +144,8 @@ if g:gruvbox_italic == 0
   let s:italic = ''
 endif
 
+let s:bolditalic = s:bold . s:italic
+
 let s:underline = 'underline,'
 if g:gruvbox_underline == 0
   let s:underline = ''
@@ -1407,7 +1409,8 @@ hi! link rDollar GruvboxRed
 hi! link rString GruvboxBlue
 hi! link rFunction GruvboxGreen
 hi! link rBuiltin GruvboxGreen
-hi! link Title GruvboxYellowBold
+call s:HL('GruvboxYellowBoldItalic', s:yellow, s:none, s:bolditalic)
+hi! link Title GruvboxYellowBoldItalic
 
 " }}}
 
