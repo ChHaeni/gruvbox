@@ -443,6 +443,7 @@ call s:HL('GruvboxYellow', s:yellow)
 call s:HL('GruvboxYellowBold', s:yellow, s:none, s:bold)
 call s:HL('GruvboxBlue', s:blue)
 call s:HL('GruvboxBlueBold', s:blue, s:none, s:bold)
+call s:HL('GruvboxBlueItalic', s:blue, s:none, s:italic)
 call s:HL('GruvboxPurple', s:purple)
 call s:HL('GruvboxPurpleBold', s:purple, s:none, s:bold)
 call s:HL('GruvboxAqua', s:aqua)
@@ -1033,7 +1034,9 @@ hi! link cIncluded GruvboxPurple
 " cpp enhanced syntax
 hi! link cppString GruvboxBlue
 " hi! link cppSTLnamespace GruvboxAqua
-hi! link cppSTLnamespace GruvboxOrange
+" hi! link cppSTLnamespace GruvboxOrange
+hi! link cppStructure GruvboxOrange
+hi! link cppSTLnamespace GruvboxBlueItalic
 hi! link cppSTLios GruvboxAqua
 hi! link cppSTLvariable GruvboxAqua
 
