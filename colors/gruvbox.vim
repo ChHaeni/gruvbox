@@ -1029,6 +1029,7 @@ hi! link cOperator GruvboxPurple
 hi! link cStructure GruvboxOrange
 hi! link cUserFunction GruvboxGreen
 hi! link cString GruvboxBlue
+hi! link cIncluded GruvboxPurple
 " cpp enhanced syntax
 hi! link cppString GruvboxBlue
 " hi! link cppSTLnamespace GruvboxAqua
