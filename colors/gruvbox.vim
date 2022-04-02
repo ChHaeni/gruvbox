@@ -1023,10 +1023,18 @@ hi! link clojureQuote GruvboxYellow
 hi! link clojureUnquote GruvboxYellow
 
 " }}}
-" C: {{{
+" C/C++: {{{
 
 hi! link cOperator GruvboxPurple
 hi! link cStructure GruvboxOrange
+hi! link cUserFunction GruvboxGreen
+hi! link cString GruvboxBlue
+" cpp enhanced syntax
+hi! link cppString GruvboxBlue
+" hi! link cppSTLnamespace GruvboxAqua
+hi! link cppSTLnamespace GruvboxOrange
+hi! link cppSTLios GruvboxAqua
+hi! link cppSTLvariable GruvboxAqua
 
 " }}}
 " Python: {{{
