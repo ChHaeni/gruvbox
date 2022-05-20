@@ -1036,7 +1036,8 @@ hi! link cppString GruvboxBlue
 " hi! link cppSTLnamespace GruvboxAqua
 " hi! link cppSTLnamespace GruvboxOrange
 hi! link cppStructure GruvboxOrange
-hi! link cppSTLnamespace GruvboxBlueItalic
+" hi! link cppSTLnamespace GruvboxBlueItalic
+hi! link cppSTLnamespace GruvboxAqua
 hi! link cppSTLios GruvboxAqua
 hi! link cppSTLvariable GruvboxAqua
 
