@@ -93,6 +93,7 @@ let s:gb.dark1       = ['#3c3836', 237]     " 60-56-54
 let s:gb.dark2       = ['#504945', 239]     " 80-73-69
 let s:gb.dark3       = ['#665c54', 241]     " 102-92-84
 let s:gb.dark4       = ['#7c6f64', 243]     " 124-111-100
+let s:gb.dark_yellow  = ['#857141', 214]     " 250-189-47
 let s:gb.dark4_256   = ['#7c6f64', 243]     " 124-111-100
 
 let s:gb.gray_245    = ['#928374', 245]     " 146-131-116
@@ -510,7 +511,9 @@ hi! link SpecialKey GruvboxBg2
 call s:HL('Visual',    s:none,  s:bg3, s:invert_selection)
 hi! link VisualNOS Visual
 
-call s:HL('Search',    s:yellow, s:bg0, s:inverse)
+" call s:HL('Search',    s:gb.purple, s:bg0, s:inverse)
+call s:HL('Search',    s:gb.dark_yellow, s:bg0, s:inverse)
+call s:HL('CurSearch', s:yellow, s:bg0, s:inverse)
 call s:HL('IncSearch', s:hls_cursor, s:bg0, s:inverse)
 
 call s:HL('Underlined', s:blue, s:none, s:underline)
