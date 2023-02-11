@@ -1427,6 +1427,13 @@ hi! link rFunction GruvboxGreen
 hi! link rBuiltin GruvboxGreen
 call s:HL('GruvboxYellowBoldItalic', s:yellow, s:none, s:bolditalic)
 hi! link Title GruvboxYellowBoldItalic
+" hi! link Todo GruvboxYellowBoldItalic
+" call s:HL('GruvboxBlueBoldItalic', s:blue, s:none, s:bolditalic)
+" hi! link Todo GruvboxBlueBoldItalic
+" call s:HL('GruvboxFg4BoldItalic', s:fg4, s:none, s:bolditalic)
+" hi! link Todo GruvboxFg4BoldItalic
+call s:HL('GruvboxNeutralYellowBoldItalic', s:gb.neutral_yellow, s:none, s:bolditalic)
+hi! link Todo GruvboxNeutralYellowBoldItalic
 
 " }}}
 
