@@ -1434,6 +1434,8 @@ hi! link Title GruvboxYellowBoldItalic
 " hi! link Todo GruvboxFg4BoldItalic
 call s:HL('GruvboxNeutralYellowBoldItalic', s:gb.neutral_yellow, s:none, s:bolditalic)
 hi! link Todo GruvboxNeutralYellowBoldItalic
+" since nvim 0.10 release:
+hi! link Delimiter GruvboxOrange
 
 " }}}
 
