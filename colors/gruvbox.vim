@@ -1436,6 +1436,10 @@ call s:HL('GruvboxNeutralYellowBoldItalic', s:gb.neutral_yellow, s:none, s:boldi
 hi! link Todo GruvboxNeutralYellowBoldItalic
 " since nvim 0.10 release:
 hi! link Delimiter GruvboxOrange
+" continue here comments
+" see github.com/chhaeni/r-vim-runtime
+hi! link rCommentHere GruvboxAquaBold
+hi! link rHereKeyw GruvboxRedBold
 
 " }}}
 
