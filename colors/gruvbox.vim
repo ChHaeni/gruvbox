@@ -1443,6 +1443,9 @@ hi! link rCommentHere GruvboxAquaBold
 hi! link rHereKeyw GruvboxRedBold
 
 " }}}
+" Telescope: {{{
+hi! link TelescopeSelection CursorLineNr
+" }}}
 
 " Functions -------------------------------------------------------------------
 " Search Highlighting Cursor {{{
