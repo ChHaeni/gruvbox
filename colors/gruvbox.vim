@@ -1425,7 +1425,7 @@ hi! link rOperator GruvboxRed
 hi! link rDollar GruvboxRed
 hi! link rString GruvboxBlue
 hi! link rFunction GruvboxGreen
-hi! link rBuiltin GruvboxGreen
+hi! link rBuiltin GruvboxAqua
 call s:HL('GruvboxYellowBoldItalic', s:yellow, s:none, s:bolditalic)
 hi! link Title GruvboxYellowBoldItalic
 " hi! link Todo GruvboxYellowBoldItalic
